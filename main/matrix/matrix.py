@@ -1,6 +1,6 @@
 def enemyBoats():
     #PRINTS A BOAT MATRIX
-    columns = ' abcdefghij'
+    columns = ' ABCDEFGHIJ'
     for number in columns:
         print(number, end=" ")
     print()
@@ -11,6 +11,7 @@ def enemyBoats():
         print()
 
 
-matrix = [['W' for x in range(10)] for x in range(10)]
+matrix = [['M' for x in range(10)] for x in range(10)]
+print(matrix)
 enemyBoats()
 
